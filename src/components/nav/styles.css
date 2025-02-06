@@ -1,0 +1,141 @@
+.fixed{
+    position: fixed;
+}
+
+
+.ellipse {
+    position: fixed;
+    width: 12vw;
+    height: 56vw;
+    min-height: 35vw;
+    margin-left: 0vw;
+
+}
+
+.ellipse2 {
+    position: fixed;
+    width: 4vw;
+    height: 64vw;
+    min-height: 2vw;
+    margin-left: 8.4vw;
+    margin-top: -3vw;
+    transform: rotate(-8deg);
+
+}
+
+.numbers {
+    position: fixed;
+    width: 6vw;
+    height: 64vw;
+    min-height: 2vw;
+    margin-left: 27vw;
+    transform: rotate(6deg);
+    margin-top: -2vw;
+}
+
+.about {
+    position: fixed;
+    z-index: 1;
+    width: 11.2vw;
+    height: 1.9vw;
+    margin-top: 38vw;
+    margin-left: 11vw;
+    cursor: pointer;
+}
+
+.projeto1 {
+    position: fixed;
+    border-radius: 50%;
+    width: 4.7vw;
+    height: 4.7vw;
+    margin-top: 18.7vw;
+    cursor: pointer;
+    margin-left: 28vw;
+    z-index: 2;
+
+}
+
+.projeto1:hover {
+    background-color: rgba(145, 92, 182, .3);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 12px 30px rgba(145, 92, 182, .9);
+}
+
+.projeto2 {
+    position: fixed;
+    border-radius: 50%;
+    width: 4.7vw;
+    height: 4.7vw;
+    margin-top: 24.7vw;
+    cursor: pointer;
+    margin-left: 28.6vw;
+    z-index: 2;
+}
+
+.projeto2:hover {
+    background-color: rgba(145, 92, 182, .3);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 12px 30px rgba(145, 92, 182, .9);
+}
+
+.projeto3 {
+    position: fixed;
+    border-radius: 50%;
+    width: 4.7vw;
+    height: 4.7vw;
+    margin-top: 30.6vw;
+    cursor: pointer;
+    margin-left: 28vw;
+    z-index: 2;
+}
+
+.projeto3:hover {
+    background-color: rgba(145, 92, 182, .3);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 12px 30px rgba(145, 92, 182, .9);
+}
+
+.projeto4 {
+    position: fixed;
+    border-radius: 50%;
+    width: 4.7vw;
+    height: 4.7vw;
+    margin-top: 36.3vw;
+    cursor: pointer;
+    margin-left: 26.1vw;
+    z-index: 2;
+}
+
+.projeto4:hover {
+    background-color: rgba(145, 92, 182, .3);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 12px 30px rgba(145, 92, 182, .9);
+}
+
+
+
+.projeto {
+    position: fixed;
+    z-index: 1;
+    width: 11.2vw;
+    margin-top: 24vw;
+    margin-left: 14.5vw;
+    
+}
+
+.projetoButton{
+    height: 2vw;
+    position: fixed;
+    z-index: 10;
+    top: 24vw;
+    left: 14vw;
+    width: 12vw;
+}
+
+.sombra{
+    position: fixed;
+    z-index: 1;
+    width: 54.2vw;
+    top: 3.5vw;
+    left: -5.5vw;
+}
