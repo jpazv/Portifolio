@@ -2,8 +2,6 @@
 
 Este é um projeto de portfólio pessoal desenvolvido em React, com foco em responsividade e design moderno. O portfólio exibe informações pessoais, projetos realizados e formas de contato, sendo uma vitrine para apresentar suas habilidades como desenvolvedor.
 
-![Gaming and Anime](https://media.giphy.com/media/26FPO1zRb3h6sZRbi/giphy.gif)
-
 ## Sobre Mim 🚀
 
 Sou apaixonado por **games** e **animes**, e isso se reflete no meu portfólio! ✨ Alguns dos personagens aparecem aqui
