@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Portifolium
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de portfólio pessoal desenvolvido em React, com foco em responsividade e design moderno. O portfólio exibe informações pessoais, projetos realizados e formas de contato, sendo uma vitrine para apresentar suas habilidades como desenvolvedor.
 
-## Available Scripts
+![Gaming and Anime](https://media.giphy.com/media/26FPO1zRb3h6sZRbi/giphy.gif)
 
-In the project directory, you can run:
+## Sobre Mim 🚀
 
-### `npm start`
+Sou apaixonado por **games** e **animes**, e isso se reflete no meu portfólio! ✨ Alguns dos personagens aparecem aqui
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **React Router DOM**: Para navegação entre as páginas.
+- **Material-UI (MUI)**: Biblioteca de componentes React para estilização.
+- **SVGs**: Imagens vetoriais para elementos gráficos.
 
-### `npm run build`
+## Estrutura do Projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+/portifolium-main
+|
+├── /public
+│   └── index.html  # Página principal onde o React é injetado
+|
+├── /src
+│   ├── /assets
+│   ├── /components
+│   │   ├── AboutMePage.jsx  # Página "Sobre Mim"
+│   │   └── LadinPageMobile.jsx  # Versão Mobile da Landing Page
+│   |
+│   ├── App.jsx  # Componente principal que gerencia as rotas
+│   └── index.js  # Ponto de entrada do React
+|
+├── .gitignore
+├── package.json
+├── README.md
+└── .parcelrc  # Configurações do Parcel
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Funcionalidades
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Exibição de informações pessoais e bio.
+- Seção de projetos com descrições e links.
+- Links para redes sociais e contato.
+- Versão responsiva para dispositivos móveis (em desenvolvimento).
 
-### `npm run eject`
+## Como Rodar o Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/SEU_USUARIO/portifolium.git
+   ```
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd portifolium-main
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+4. Rode o projeto:
+   ```bash
+   npm start
+   ```
+5. Acesse no navegador:
+   ```
+   http://localhost:3000
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contribuições
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Sinta-se à vontade para abrir issues ou pull requests com melhorias, correções ou novas funcionalidades.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Licença
 
-## Learn More
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para mais detalhes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feito com ❤️ por Micheal Weaver.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
