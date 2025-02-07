@@ -80,5 +80,5 @@ Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE par
 
 ---
 
-Feito com ❤️ por Micheal Weaver.
+Feito com ❤️ por jpzv.
 
